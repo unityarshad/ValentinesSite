@@ -6,9 +6,11 @@ body {
     justify-content: space-evenly;
     height: 100vh;
     margin: 0;
-    background: url('images/image.jpg') repeat;
+    background: url('images/purple_cloud_3.jpg') repeat;
     font-size: 35px;
     color: rgb(255, 0, 174);
+    background-size: 100% 100%; /* Set background-size to cover the entire background */
+    background-repeat: no-repeat
 }
 .hh{
     -webkit-text-stroke: 2px #71004f;
